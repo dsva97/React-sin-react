@@ -1,0 +1,7 @@
+.btn-action {
+  border: 1px solid black;
+  background: transparent;
+  border-radius: 0.2em;
+  padding: 1.75em 0.5em;
+  cursor: pointer;
+}

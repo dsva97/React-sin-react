@@ -1,0 +1,11 @@
+.panel {
+  display: flex;
+  background: salmon;
+  text-align: center;
+}
+.panel__actions {
+  display: flex;
+}
+.panel__actions button {
+  margin: 1em;
+}

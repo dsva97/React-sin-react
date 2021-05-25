@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "start": "node_modules/.bin/babel-node builder/index.jsx",
+    "build": "esbuild src/index.jsx --bundle --outfile=dist/bundle.js"
+  },
+  "dependencies": {
+    "babel-plugin-transform-import-ignore": "^1.1.0",
+    "esbuild": "^0.12.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/node": "^7.14.2",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-react": "^7.13.13"
+  },
+  "name": "trying-string",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}
